@@ -15,10 +15,9 @@ book:
   downloads: [pdf]             # PDF-Download-Button in der HTML-Navbar
   chapters:                    # manuell gepflegtes Inhaltsverzeichnis
     - index.qmd
-    - part: "Teil I"
+    - part: "Einführung"
       chapters:
-        - notebooks/kapitel-01/kapitel-01.ipynb
-        - notebooks/kapitel-02/kapitel-02.ipynb
+        - notebooks/260818_einfuehrung/260818_einfuehrung.ipynb
 
 format:
   html:
