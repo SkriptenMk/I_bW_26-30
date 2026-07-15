@@ -50,3 +50,6 @@ index.tex
 # ── Fremde OS (Kollegen/Schüler als Mitwirkende) ────────
 .DS_Store
 Thumbs.db
+
+/.quarto/
+**/*.quarto_ipynb
