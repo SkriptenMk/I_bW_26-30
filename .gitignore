@@ -1,0 +1,52 @@
+# ────────────────────────────────────────────────────────
+# .gitignore — Quarto Book (TuxedoOS / VS Code / Positron)
+# ────────────────────────────────────────────────────────
+
+# ── Quarto ──────────────────────────────────────────────
+/_book/                  # gerendertes Output-Verzeichnis
+/.quarto/                # Quarto-interner Cache/Metadaten
+
+# WICHTIG: _freeze/ NICHT ignorieren!
+# Bei freeze: true muss der Ordner committet werden,
+# sonst schlägt der CI-Build fehl (kein Kernel im Runner).
+# /_freeze/              # ← bewusst auskommentiert lassen
+
+# ── Jupyter ─────────────────────────────────────────────
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.nbconvert.ipynb
+# Kein nbstripout/Output-Cleaning: gespeicherte Outputs
+# sind Voraussetzung für den Build ohne Code-Ausführung.
+
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+
+# ── LaTeX (falls PDF-Format ergänzt wird) ───────────────
+*.aux
+*.log
+*.toc
+*.synctex.gz
+index.tex
+
+# ── Editor / IDE ────────────────────────────────────────
+.vscode/*
+!.vscode/settings.json   # geteilte Projekteinstellungen
+!.vscode/extensions.json # Extension-Empfehlungen (z. B. für Schüler)
+.positron/               # defensiv, falls künftige Versionen anlegen
+.idea/
+*.swp
+.luarc.json              # Neovim/Lua-LSP
+
+# ── Linux / KDE Plasma ──────────────────────────────────
+.directory               # KDE Dolphin-Ordnereinstellungen
+*~                       # Backup-Dateien (Kate, gedit, u. a.)
+.Trash-*
+.fuse_hidden*            # FUSE-Artefakte (rclone-/autofs-Mounts)
+
+# ── Fremde OS (Kollegen/Schüler als Mitwirkende) ────────
+.DS_Store
+Thumbs.db
