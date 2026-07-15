@@ -9,7 +9,7 @@ execute:
   freeze: true                 # niemals Code beim Build neu ausführen
 
 book:
-  title: "Mein Quarto Book"
+  title: "Unterlagen für das obligatorische Fach Informatik in der Klasse 1bW"
   author: "Jacques Mock Schindler"
   date: today
   downloads: [pdf]             # PDF-Download-Button in der HTML-Navbar
