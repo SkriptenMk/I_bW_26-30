@@ -1,8 +1,8 @@
-# Obligatorisches Fach Informatik (1bW)
+# Obligatorisches Fach Informatik (1bW) {.unnumbered}
 
 In diesem Repository werden die Unterlagen für das obligatorische Fach Informatik zur Verfügung gestellt.
 
-## Programm
+## Programm {.unnumbered}
 
 Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 Änderungen kommen.
@@ -32,14 +32,14 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 02.02.2027 | Rekursion II und Semesterabschluss |
 
 
-## Hilfsmittel für den Unterricht
+## Hilfsmittel für den Unterricht {.unnumbered}
 
 Der Unterricht findet über weite Strecken am Computer statt. Die Anleitungen
 für die Installation von Python bzw. der Jupyter Notebooks sind in der
 Seitenliste aufrufbar.
 
 
-## Beurteilung
+## Beurteilung {.unnumbered}
 
 Die Note wird aus dem Durchschnitt der beiden schriftlichen Prüfungen
 sowie der Benotung der mündlichen Beteiligung berechnet. Der
