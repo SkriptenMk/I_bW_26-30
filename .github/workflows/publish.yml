@@ -16,18 +16,10 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tinytex: true        # TeX-Distribution für den PDF-Build
-
-      # Nur nötig, falls .qmd-Dateien OHNE Freeze-Cache existieren.
-      # Bei freeze: true + committetem _freeze/ bzw. reinen .ipynb
-      # mit gespeicherten Outputs kann dieser Block entfallen.
-      # - name: Set up Python
-      #   uses: actions/setup-python@v5
-      #   with:
-      #     python-version: "3.12"
-      # - name: Install Python dependencies
-      #   run: pip install -r requirements.txt jupyter
+          tinytex: true
 
       - name: Render and publish to gh-pages
         uses: quarto-dev/quarto-actions/publish@v2
