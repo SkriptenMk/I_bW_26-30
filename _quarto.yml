@@ -12,6 +12,7 @@ book:
   title: "Unterlagen für das obligatorische Fach Informatik in der Klasse 1bW"
   author: "Jacques Mock Schindler"
   date: today
+  date-format: "DD. MMMM YYYY"
   downloads: [pdf]             # PDF-Download-Button in der HTML-Navbar
   chapters:                    # manuell gepflegtes Inhaltsverzeichnis
     - index.qmd
@@ -25,7 +26,7 @@ format:
     toc: true
     code-tools: false
   pdf:
-    documentclass: scrbook     # KOMA-Script; scrreprt für einseitiges Layout
+    documentclass: scrreprt     # KOMA-Script; scrreprt für einseitiges Layout
     pdf-engine: lualatex
     papersize: a4
     toc: true
