@@ -39,3 +39,5 @@ format:
     include-in-header:
       text: |
         \KOMAoptions{parskip=half}
+        \let\origtextbackslash\textbackslash
+        \renewcommand{\textbackslash}{\origtextbackslash\allowbreak}
