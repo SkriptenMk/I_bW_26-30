@@ -19,6 +19,7 @@ book:
     - part: "Einführung"
       chapters:
         - notebooks/260818_einfuehrung/260818_einfuehrung.ipynb
+        - notebooks/260825_arbeitsumgebung/260825_arbeitsumgebung.ipynb
 
 format:
   html:
@@ -38,3 +39,5 @@ format:
     include-in-header:
       text: |
         \KOMAoptions{parskip=half}
+        \let\origtextbackslash\textbackslash
+        \renewcommand{\textbackslash}{\origtextbackslash\allowbreak}
