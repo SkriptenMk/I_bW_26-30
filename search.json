@@ -34,7 +34,7 @@
     "href": "index.html#beurteilung",
     "title": "Unterlagen für das obligatorische Fach Informatik in der Klasse 1bW",
     "section": "Beurteilung",
-    "text": "Beurteilung\nDie Note wird aus dem Durchschnitt der beiden schriftlichen Prüfungen sowie der Benotung der mündlichen Beteiligung berechnet. Der Durchschnitt der Prüfungen zählt zu 90%, die mündliche Beteiligung zu 10%.\nAb dem zweiten Semester wird konstruktive Kritik an den Unterlagen, welche durch ein mir zugewiesenes Issue (der Zugang findet sich unter dem GitHub-Logo  in der Kopfzeile) eingebracht wird, mit Maximal einem Notenpunkt auf die jeweils thematisch passende Prüfung angerechnet.\nFalls jemand eine persönliche Besprechung wünscht,  kann hier einen Termin für eine Sprechstunde reservieren (Rent-A-Mock).",
+    "text": "Beurteilung\nDie Note wird aus dem Durchschnitt der beiden schriftlichen Prüfungen sowie der Benotung der mündlichen Beteiligung berechnet. Der Durchschnitt der Prüfungen zählt zu 90%, die mündliche Beteiligung zu 10%.\nAb dem zweiten Semester wird konstruktive Kritik an den Unterlagen, welche durch ein mir zugewiesenes Issue (der Zugang findet sich unter dem GitHub-Logo  in der Kopfzeile) eingebracht wird, mit maximal einem Notenpunkt auf die jeweils thematisch passende Prüfung angerechnet.\nFalls jemand eine persönliche Besprechung wünscht,  kann hier einen Termin für eine Sprechstunde reserviert werden (Rent-A-Mock).",
     "crumbs": [
       "Obligatorisches Fach Informatik (1bW)"
     ]
@@ -125,6 +125,50 @@
     "crumbs": [
       "Einführung",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Einrichten der Arbeitsumgebung</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/260825_einf_python/260825_einf_python.html",
+    "href": "notebooks/260825_einf_python/260825_einf_python.html",
+    "title": "3  Eine sehr kurze Einführung in Python",
+    "section": "",
+    "text": "3.1 Rechnen mit Python\nIn diesem Jupyter Notebook erhalten Sie einen ganz kurzen Überblick über die wichtigsten Elemente der Programmiersprache Python. Damit wird die Grundlage für die kommenden Themen gelegt.\nWenn Sie dieses Jupyter Notebook durchgearbeitet haben, sollten Sie in der Lage sein\nEs gibt verschiedene Möglichkeiten mit Hilfe eines Computers arithmetische Operationen durchzuführen. Hier lernen Sie, wie Sie solche mit Python vornehmen können.\nPython stellt Ihnen die folgenden arithmetischen Operationen zur Verfügung:\nPython ist so programmiert, dass die Rangfolge der verschiedenen arithmetischen Operationen (Punkt vor Strich, Klammern zuerst) eingehalten wird.\nDamit Sie ein Gefühl für die Funktionsweise von Python als ‘Rechner’ erhalten, führen Sie die folgenden Berechnungen durch. Die Berechnung kann direkt in der Code-Zelle unterhalb der jeweiligen Aufgabenstellung durchgeführt werden.\n# TODO: Berechnung durchführen\n# TODO: Berechnung durchführen\n# TODO: Berechnung durchführen\n# TODO: Berechnung durchführen\n# TODO: Berechnung durchführen",
+    "crumbs": [
+      "Einführung",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Eine sehr kurze Einführung in Python</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/260825_einf_python/260825_einf_python.html#rechnen-mit-python",
+    "href": "notebooks/260825_einf_python/260825_einf_python.html#rechnen-mit-python",
+    "title": "3  Eine sehr kurze Einführung in Python",
+    "section": "",
+    "text": "Table 3.1: Zusammenstellung der Grundrechenarten.\n\n\n\n\n\n\n\n\n\n\n\n\nOperation\nOperationszeichen\nAlgebraisch\nPython\nNumerisch\n\n\n\n\nAddition\n\\(+\\)\n\\(a + b\\)\n4 + 5\n\\(4 + 5 = 9\\)\n\n\nSubtraktion\n\\(-\\)\n\\(a - b\\)\n5 - 4\n\\(5 - 4 = 1\\)\n\n\nMultiplikation\n\\(\\cdot\\)\n\\(a \\cdot b\\)\n3 * 4\n\\(3 \\cdot 4 = 12\\)\n\n\nPotenzierung\n\n\\(a ^ b\\)\n2 ** 3\n\\(2 ^ 3 = 8\\)\n\n\nDivision\n\\(\\frac{}{}\\)\n\\(\\frac{a}{b}\\)\n7 / 2\n\\(\\frac{7}{2} = 3.5\\)\n\n\nGanzzahldivision\n\\(\\lfloor \\rfloor\\)\n\\(\\lfloor \\frac{a}{b} \\rfloor\\)\n7 // 2\n\\(\\lfloor \\frac{7}{2} \\rfloor = 3\\)\n\n\nModulo\n\\(\\mod\\)\n\\(a\\mod b\\)\n7 % 2\n\\(7 \\mod 2 = 1\\)\n\n\n\n\n\n\n\n\n\n\\(2 + 3 \\cdot 4\\)\n\n\n\n\\((2 + 3) \\cdot 4\\)\n\n\n\n\\(2^5+2^3+2^1\\)\n\n\n\n\\(\\lfloor \\frac{40}{7} \\rfloor\\)\n\n\n\n\\(40 \\mod 7\\)",
+    "crumbs": [
+      "Einführung",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Eine sehr kurze Einführung in Python</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/260825_einf_python/260825_einf_python.html#werte-variablen-zuweisen",
+    "href": "notebooks/260825_einf_python/260825_einf_python.html#werte-variablen-zuweisen",
+    "title": "3  Eine sehr kurze Einführung in Python",
+    "section": "3.2 Werte Variablen zuweisen",
+    "text": "3.2 Werte Variablen zuweisen\nDie oben durchgeführten Berechnungen haben das Resultat jeweils direkt ausgegeben. In vielen Fällen ist das Resultat einer konkreten Berechnung jedoch lediglich ein Zwischenresultat. In diesen Fällen will man mit diesem Zwischenresultat weiterrechnen können. Hier kommen Variablen ins Spiel.\nDie Resultate Ihrer Berechnungen werden nicht nur angezeigt, sie werden auch im Arbeitsspeicher abgelegt. Variablen dienen nun dazu, einen ansprechbaren Verweis auf den Ort des abgelegten Resultates anzulegen. Das heisst, wir können die Resultate der Berechnungen nicht nur ausgeben, wir können sie einer Variable zuweisen. Dazu wird in Python das Zeichen = verwendet (ich habe das Zeichen in diesem Zusammenhang bewusst nicht Gleichheitszeichen genannt, weil es hier keine Gleichheit, sondern eine Zuweisung zum Ausdruck bringt). Dabei muss die Variable links des Zuweisungszeichens und der zuzuweisende Wert rechts davon stehen.\nVariablennamen dürfen aus Buchstaben, Ziffern und Unterstrichen bestehen, dürfen aber nicht mit einer Ziffer beginnen. Ausgenommen sind die sogenannten ‘reservierten Wörter’. Diese Wörter haben in Python eine feste Bedeutung und dürfen deshalb nicht als Variablennamen verwendet werden. Als Konvention hat sich eingebürgert, dass Python-Variablen in Snake Case geschrieben werden. Snake Case sieht folgendermassen aus: ich_bin_eine_python_variable. Dies ermöglicht es, Variablen mit Namen zu versehen, welche eine kurze Erklärung zu den ihnen zugewiesenen Werten abgeben.\nFür die erste Berechnung von oben kann das folgendermassen aussehen:\n\nresultat_a = 2 + 3 * 4\n\nNun wird das Resultat der Berechnung der Variable resultat_a zugewiesen und nicht mehr ausgegeben. Wir können den zugewiesenen Wert jederzeit ausgeben, indem wir die Variable aufrufen.\n\nresultat_a\n\nDie Berechnung und der Aufruf der Variable können auch in der gleichen Code-Zelle stehen. Ausgegeben wird allerdings immer nur der Wert der letzten Code-Zeile.\n\nresultat_a = 2 + 3 * 4\nresultat_a\n\nSpielen Sie die verschiedenen Möglichkeiten mit allen obigen Berechnungen durch.\n\n# TODO: Resultate von Berechnungen Variablen zuweisen\n\nVariablen können jedoch nicht ausschliesslich Werte von Berechnungen zugewiesen werden. Es ist auch möglich, Variablen direkt Werte zuzuweisen. Ausserdem kann mit den Variablen weitergerechnet werden. Das zeigt das folgende Beispiel.\n\na = 3\nb = 4\nc = (a**2 + b**2)**(1/2)\nc\n\n5.0\n\n\nDiese Berechnung ermöglicht noch eine Ergänzung zu den oben in der Tabelle angeführten arithmetischen Operationen. Wurzeln können als Potenz dargestellt werden. Für die Quadratwurzel ist der Exponent ein Zweitel, für die dritte Wurzel ein Drittel etc. Dabei dürfen die Exponenten auch als Dezimalzahl geschrieben werden.\nFühren Sie die obige Berechnung mit den Zahlen a = 5 und b = 12 durch.\n\n# TODO: Berechnung mit a = 5 und b = 12 durchführen",
+    "crumbs": [
+      "Einführung",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Eine sehr kurze Einführung in Python</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/260825_einf_python/260825_einf_python.html#einfache-python-funktionen-aufrufen",
+    "href": "notebooks/260825_einf_python/260825_einf_python.html#einfache-python-funktionen-aufrufen",
+    "title": "3  Eine sehr kurze Einführung in Python",
+    "section": "3.3 Einfache Python Funktionen aufrufen",
+    "text": "3.3 Einfache Python Funktionen aufrufen\nDie erste Funktion, welche bei der Neuinstallation einer Programmiersprache traditionellerweise aufgerufen wird, haben Sie bereits kennengelernt.\nprint('Hello World')\nDie Funktion print() gibt aus, was ihr innerhalb der Klammern übergeben wird. Was einer Funktion beim Aufruf übergeben wird, nennt man Argument. So, wie wir die Funktion bisher verwendet haben, ist das Argument die Zeichenfolge in den Anführungszeichen. Anstelle eines solchen Strings (Zeichenkette, ein von Python zur Verfügung gestellter Datentyp - was genau Datentypen sind, wird gleich unten angetönt und später im Detail besprochen) können der Funktion auch Variablen übergeben werden. So kann ihr zum Beispiel die Variable resultat_a aus obigen Berechnungen übergeben werden.\n\nprint(resultat_a)\n\n\nHinweis: Erscheint hier die Fehlermeldung NameError: name 'resultat_a' is not defined, wurde die Zelle, in der die Variable definiert wird, in dieser Sitzung noch nicht ausgeführt. Führen Sie zuerst die Zelle mit der Zuweisung aus und anschliessend diese Zelle noch einmal.\n\nDer Unterschied zum direkten Aufruf einer Variable: Ohne print() zeigt das Notebook nur den Wert der letzten Zeile einer Code-Zelle an. Mit print() können Sie beliebig viele Werte an beliebiger Stelle einer Code-Zelle ausgeben. Probieren Sie das aus, indem Sie in der folgenden Code-Zelle alle von Ihnen bisher verwendeten Variablen nacheinander mit print() ausgeben.\n\n# TODO: Ausgabe der bisher definierten Variablen\n\nEine zweite nützliche Funktion, die Python direkt zur Verfügung stellt, ist type(). Sie verrät, welchen Datentyp ein Wert hat. Wie bei print() wird der zu untersuchende Wert als Argument in den Klammern übergeben.\n\ntype(7)\n\nDie Ausgabe int steht für Integer, den Datentyp der ganzen Zahlen. Untersuchen Sie in der folgenden Code-Zelle nacheinander die Werte 3.5, 'Hello World' sowie die Variablen resultat_a und c. Verwenden Sie dazu print() in Kombination mit type(), also zum Beispiel print(type(3.5)) - so werden alle Resultate untereinander ausgegeben.\nSie werden dabei neben int auf zwei weitere Datentypen stossen: float (Dezimalzahlen, sogenannte Fliesskommazahlen) und str (Strings, also Zeichenketten). Was es mit diesen Datentypen im Einzelnen auf sich hat, wird später im Detail besprochen. Für den Moment genügt es zu wissen, dass jeder Wert in Python einen Datentyp hat und dass type() diesen sichtbar macht.\n\n# TODO: Datentypen der angegebenen Werte und Variablen ausgeben",
+    "crumbs": [
+      "Einführung",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Eine sehr kurze Einführung in Python</span>"
     ]
   }
 ]
