@@ -49,10 +49,10 @@ Ab dem zweiten Semester wird konstruktive Kritik an den Unterlagen,
 welche durch ein mir zugewiesenes Issue (der Zugang findet sich unter dem
 GitHub-Logo
 ![](octocat_klein.png) 
-in der Kopfzeile) eingebracht wird, mit Maximal einem
+in der Kopfzeile) eingebracht wird, mit maximal einem
 Notenpunkt auf die jeweils thematisch passende Prüfung angerechnet.
 
 Falls jemand eine persönliche Besprechung wünscht, 
 <a href="https://calendar.app.google/UynTL5ttVPHhK1Hc8" target="_blank">
-kann hier einen Termin für eine Sprechstunde reservieren
+kann hier einen Termin für eine Sprechstunde reserviert werden
 (Rent-A-Mock)</a>.
