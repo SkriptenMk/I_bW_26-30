@@ -10,3 +10,8 @@ format:
       - text: Notebook herunterladen
         icon: download
         href: 260825_einf_python.ipynb
+  pdf:
+    header-includes: |
+      \hyphenation{
+        Ganzzahl-division
+      }
