@@ -3,7 +3,10 @@ project:
   output-dir: _book
   resources:
     - "notebooks/**/*.ipynb"   # kopiert Original-Notebooks ins Output
-                               # → Voraussetzung für den Download-Link (Abschnitt 4)
+                               # → Voraussetzung für den Download-Link
+                               # (Abschnitt 4)
+
+lang: de
 
 execute:
   freeze: true                 # niemals Code beim Build neu ausführen
