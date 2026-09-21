@@ -27,7 +27,7 @@ book:
         - notebooks/260901_fahne_I/260901_fahne_I.ipynb
         - notebooks/260908_blume/160908_blume.ipynb
         - notebooks/260915_blume_II/260915_blume_II.ipynb
-        notebooks/260922_farbstift/260922_farbstift.ipynb
+        - notebooks/260922_farbstift/260922_farbstift.ipynb
 
 format:
   html:
