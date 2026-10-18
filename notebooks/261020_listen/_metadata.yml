@@ -1,15 +1,4 @@
 format:
-  html:
-    code-links:
-      - text: In Colab öffnen
-        icon: rocket-takeoff
-        href: https://colab.research.google.com/github/SkriptenMk/I_bW_26-30/blob/main/notebooks/261020_listen/261020_listen.ipynb
-      - text: In Binder öffnen
-        icon: box-arrow-up-right
-        href: https://mybinder.org/v2/gh/SkriptenMk/I_bW_26-30/main?labpath=notebooks%2F261020_listen%2F261020_listen.ipynb
-      - text: Notebook herunterladen
-        icon: download
-        href: 261020_listen.ipynb
   pdf:
     header-includes: |
       \hyphenation{
