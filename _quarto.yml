@@ -31,7 +31,7 @@ book:
         - notebooks/261020_listen/261020_listen.ipynb
   appendices:                  # Musterlösungen (HTML und PDF)
     - notebooks/261020_listen/261020_listen_loesung.ipynb
-    - notebooks/261103_uebungen/261103_uebungen.ipynb
+    - notebooks/261103_uebungen/261103_uebungen_loesung.ipynb
 
 format:
   html:
