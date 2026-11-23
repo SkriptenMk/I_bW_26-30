@@ -30,9 +30,11 @@ book:
         - notebooks/260922_farbstift/260922_farbstift.ipynb
         - notebooks/261020_listen/261020_listen.ipynb
         - notebooks/261103_uebungen/261103_uebungen.ipynb
+        - notebooks/261124_funktionen/261124_funktionen.ipynb
   appendices:                  # Musterlösungen (HTML und PDF)
     - notebooks/261020_listen/261020_listen_loesung.ipynb
     - notebooks/261103_uebungen/261103_uebungen_loesung.ipynb
+    - notebooks/261124_funktionen_loesungen/26124_funktionen_loesungen.ipynb
 
 format:
   html:
